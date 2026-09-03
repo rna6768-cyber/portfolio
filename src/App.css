@@ -994,3 +994,32 @@ body {
   cursor: pointer;
   padding: 0.2rem;
 }
+/* Contact Social Buttons */
+.socials {
+  display: flex;
+  flex-wrap: wrap; /* Allows buttons to wrap to the next line on mobile */
+  gap: 0.75rem;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.socials a {
+  color: var(--sega-white);
+  text-decoration: none;
+  font-family: var(--font-arcade);
+  font-size: clamp(0.6rem, 2.5vw, 0.75rem); /* Dynamically shrinks text on small screens */
+  background: var(--sega-blue);
+  padding: 0.5rem 0.8rem;
+  border: 2px solid var(--sega-yellow);
+  box-shadow: 3px 3px 0px var(--sega-red);
+  transition: all 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.socials a:hover {
+  background: var(--sega-yellow);
+  color: var(--sega-dark-blue);
+}
