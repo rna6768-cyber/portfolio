@@ -29,6 +29,11 @@ const posterItems = [
     title: "Futuristic Poster Series",
     image: "https://i.pinimg.com/736x/9b/bb/e7/9bbbe724d3861e9384090f8260d27d78.jpg",
   },
+  {
+    id: 6,
+    title: "Mooncake Festival Poster",
+    image: "https://i.pinimg.com/736x/1a/bd/ef/1abdef9911b2582eabf72e2a7b104c60.jpg",
+  },
 ];
 
 export default function Banner() {
