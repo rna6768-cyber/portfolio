@@ -1023,3 +1023,42 @@ body {
   background: var(--sega-yellow);
   color: var(--sega-dark-blue);
 }
+/* Lightbox Modal Tweaks */
+.lightbox-modal {
+  border-radius: 12px;
+  overflow: hidden; /* Ensures full-bleed poster imagery clips flush to corners */
+  border: 3px solid var(--sega-yellow, #ffea00);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8), 6px 6px 0px var(--sega-red, #ff0055);
+}
+
+.lightbox-image-container img {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  display: block;
+  width: 100%;
+}
+
+/* Modal Info Footer */
+.lightbox-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.lightbox-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.lightbox-tag-pill {
+  font-family: var(--font-arcade, monospace);
+  font-size: 0.65rem;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid cyan;
+  color: cyan;
+  background: rgba(0, 255, 255, 0.05);
+  transform: skewX(-4deg);
+}
