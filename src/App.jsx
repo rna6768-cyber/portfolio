@@ -10,6 +10,7 @@ import Further from "./components/Further";
 import Contact from "./components/Contact";
 import Loader from "./components/Loader";
 import Profile from "./components/Profile";
+import Banner from "./components/Banner";
 import { segaSound } from "./utils/audio";
 import "./App.css";
 
@@ -26,6 +27,7 @@ function App() {
 
       {!isLoading && (
         <div className="site-shell">
+          <Banner />
           <Navbar />
 
           <main>
@@ -44,8 +46,8 @@ function App() {
             <span>Built with React + Framer Motion</span>
             <a
               href="#home"
-              onMouseEnter={() => segaSound.playBlip(1000, 0.04)}
-              onClick={() => segaSound.playSonicRing()}
+              onMouseEnter={() => segaSound?.playBlip(1000, 0.04)}
+              onClick={() => segaSound?.playSonicRing()}
             >
               BACK TO TOP ↑
             </a>

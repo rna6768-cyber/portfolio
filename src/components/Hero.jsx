@@ -46,6 +46,16 @@ const artworks = [
     tone: "green",
     poster: "https://i.pinimg.com/736x/7f/e1/b3/7fe1b3f9e0cb1e9d4fb8258155cdfe21.jpg",
   },
+  {
+    number: "05",
+    title: "Futuristic Poster Series",
+    type: "Poster Design",
+    description:
+      "A series of futuristic poster designs featuring abstract shapes, vibrant gradients, and dynamic compositions.",
+    tags: ["Poster Design", "Futuristic", "Digital Art"],
+    tone: "indigo",
+    poster: "https://i.pinimg.com/736x/9b/bb/e7/9bbbe724d3861e9384090f8260d27d78.jpg",
+  }
 ];
 
 export default function Hero() {
