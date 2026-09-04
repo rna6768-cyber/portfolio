@@ -1,15 +1,14 @@
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
-import { FaGithub, FaInstagram, FaLinkedin, FaTelegram, FaFacebook,FaTiktok } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaTelegram, FaFacebook,FaTiktok } from "react-icons/fa";
 import { segaSound } from "../utils/audio";
 
 const socials = [
-  { name: "GitHub", href: "https://github.com", icon: FaGithub },
-  { name: "LinkedIn", href: "https://linkedin.com", icon: FaLinkedin },
+  { name: "GitHub", href: "https://github.com/rna6768-cyber", icon: FaGithub },
   { name: "Telegram", href: "https://t.me/peng_Obi", icon: FaTelegram },
   { name: "Instagram", href: "https://instagram.com", icon: FaInstagram },
-  { name: "Facebook", href: "https://facebook.com", icon: FaFacebook },
-  { name: "TikTok", href: "https://tiktok.com", icon: FaTiktok },
+  { name: "Facebook", href: "https://www.facebook.com/share/19UtGnbkmY/?mibextid=wwXIfr", icon: FaFacebook },
+  { name: "TikTok", href: "https://www.tiktok.com/@peng.999?_r=1&_t=ZS-99RSJ069zsq", icon: FaTiktok },
 ];
 
 export default function Contact() {
