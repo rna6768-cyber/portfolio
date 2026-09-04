@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
-import { FaGithub, FaInstagram, FaLinkedin, FaTelegram } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedin, FaTelegram, FaFacebook,FaTiktok } from "react-icons/fa";
 import { segaSound } from "../utils/audio";
 
 const socials = [
@@ -8,6 +8,8 @@ const socials = [
   { name: "LinkedIn", href: "https://linkedin.com", icon: FaLinkedin },
   { name: "Telegram", href: "https://t.me/peng_Obi", icon: FaTelegram },
   { name: "Instagram", href: "https://instagram.com", icon: FaInstagram },
+  { name: "Facebook", href: "https://facebook.com", icon: FaFacebook },
+  { name: "TikTok", href: "https://tiktok.com", icon: FaTiktok },
 ];
 
 export default function Contact() {
