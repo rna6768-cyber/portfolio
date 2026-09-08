@@ -28,7 +28,7 @@ const artworks = [
   },
   {
     number: "03",
-    title: "Brand Editorial Layout",
+    title: "Brand Editorial",
     type: "Visual Identity",
     description:
       "A dark-mode layout exploration combining high-fashion photography with modern grid layouts.",
