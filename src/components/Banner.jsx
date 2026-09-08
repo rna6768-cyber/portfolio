@@ -1,38 +1,44 @@
-import React, { useState } from 'react';
-import { motion } from 'framer-motion';
-import { Sparkles, X } from 'lucide-react';
-import { segaSound } from '../utils/audio';
+import React, { useState } from "react";
+import { motion } from "framer-motion";
+import { Sparkles, X } from "lucide-react";
+import { segaSound } from "../utils/audio";
 
 const posterItems = [
   {
     id: 1,
     title: "MLBB TopUp Concept",
-    image: "https://i.pinimg.com/736x/e8/fe/fb/e8fefb1d16429c442001a2eb313c0c36.jpg",
+    image:
+      "https://i.pinimg.com/736x/e8/fe/fb/e8fefb1d16429c442001a2eb313c0c36.jpg",
   },
   {
     id: 2,
     title: "Kingdom Key Visual",
-    image: "https://i.pinimg.com/736x/56/7e/d6/567ed66daaa6963fed08585c7bfa6dd5.jpg",
+    image:
+      "https://i.pinimg.com/736x/56/7e/d6/567ed66daaa6963fed08585c7bfa6dd5.jpg",
   },
   {
     id: 3,
     title: "Brand Editorial Layout",
-    image: "https://i.pinimg.com/1200x/50/ee/86/50ee860b95cb4a88dd596002da7753d1.jpg",
+    image:
+      "https://i.pinimg.com/1200x/50/ee/86/50ee860b95cb4a88dd596002da7753d1.jpg",
   },
   {
     id: 4,
     title: "Neon Cyber Cover",
-    image: "https://i.pinimg.com/736x/7f/e1/b3/7fe1b3f9e0cb1e9d4fb8258155cdfe21.jpg",
+    image:
+      "https://i.pinimg.com/736x/7f/e1/b3/7fe1b3f9e0cb1e9d4fb8258155cdfe21.jpg",
   },
   {
     id: 5,
     title: "Futuristic Poster Series",
-    image: "https://i.pinimg.com/736x/9b/bb/e7/9bbbe724d3861e9384090f8260d27d78.jpg",
+    image:
+      "https://i.pinimg.com/736x/9b/bb/e7/9bbbe724d3861e9384090f8260d27d78.jpg",
   },
   {
     id: 6,
     title: "Mooncake Festival Poster",
-    image: "https://i.pinimg.com/736x/1a/bd/ef/1abdef9911b2582eabf72e2a7b104c60.jpg",
+    image:
+      "https://i.pinimg.com/736x/1a/bd/ef/1abdef9911b2582eabf72e2a7b104c60.jpg",
   },
 ];
 
@@ -69,7 +75,7 @@ export default function Banner() {
             x: {
               repeat: Infinity,
               repeatType: "loop",
-              duration: 18,
+              duration: 30,
               ease: "linear",
             },
           }}
@@ -86,8 +92,6 @@ export default function Banner() {
           ))}
         </motion.div>
       </div>
-
-      
     </div>
   );
 }
