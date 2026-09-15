@@ -13,7 +13,7 @@ const artworks = [
       "A high-contrast promotional poster concept featuring bold typography, neon gradients, and arcade-inspired composition.",
     tags: ["Photoshop", "Digital Art", "Poster Design"],
     tone: "violet",
-    poster: "https://i.pinimg.com/736x/e8/fe/fb/e8fefb1d16429c442001a2eb313c0c36.jpg",
+    poster: "https://i.pinimg.com/736x/f0/0c/93/f00c9310879d85f5b8f1b2b63b4fc58f.jpg",
   },
   {
     number: "02",
@@ -23,7 +23,7 @@ const artworks = [
       "Character concept sheet and environment art designed for a 2D strategy game aesthetic.",
     tags: ["Concept Art", "Character Design", "2D"],
     tone: "blue",
-    poster: "https://i.pinimg.com/736x/e1/ea/8e/e1ea8e2c54bcf8155f5389ef8a1bd4d1.jpg",
+    poster: "https://i.pinimg.com/736x/41/8d/a2/418da27acb82e73d44c3ba6a824c15f8.jpg",
   },
   {
     number: "03",
@@ -33,10 +33,80 @@ const artworks = [
       "A dark-mode layout exploration combining high-fashion photography with modern grid layouts.",
     tags: ["UI Art", "Typography", "Branding"],
     tone: "orange",
-    poster: "https://i.pinimg.com/1200x/50/ee/86/50ee860b95cb4a88dd596002da7753d1.jpg",
+    poster: "https://i.pinimg.com/736x/7d/73/b1/7d73b1845e0a488983d6a937023bf26b.jpg",
   },
   {
     number: "04",
+    title: "Neon Cyber Cover",
+    type: "Cover Artwork",
+    description:
+      "Experimental key visual exploring scanline textures, halftones, and synthwave-inspired lighting.",
+    tags: ["Digital Art", "Illustration", "Photoshop"],
+    tone: "green",
+    poster: "https://i.pinimg.com/736x/57/3b/d9/573bd9681560eb1d516a4e1bd8a1b769.jpg",
+  },
+   {
+    number: "04",
+    title: "Neon Cyber Cover",
+    type: "Cover Artwork",
+    description:
+      "Experimental key visual exploring scanline textures, halftones, and synthwave-inspired lighting.",
+    tags: ["Digital Art", "Illustration", "Photoshop"],
+    tone: "green",
+    poster: "https://i.pinimg.com/736x/4f/f4/a6/4ff4a63463d7e2d757ad0f59e207bac3.jpg",
+  },
+  {
+    number: "04",
+    title: "Neon Cyber Cover",
+    type: "Cover Artwork",
+    description:
+      "Experimental key visual exploring scanline textures, halftones, and synthwave-inspired lighting.",
+    tags: ["Digital Art", "Illustration", "Photoshop"],
+    tone: "green",
+    poster: "https://i.pinimg.com/736x/1e/3b/b9/1e3bb989651cfc56165d3ffa0f368044.jpg",
+  },
+   {
+    number: "04",
+    title: "Neon Cyber Cover",
+    type: "Cover Artwork",
+    description:
+      "Experimental key visual exploring scanline textures, halftones, and synthwave-inspired lighting.",
+    tags: ["Digital Art", "Illustration", "Photoshop"],
+    tone: "green",
+    poster: "https://i.pinimg.com/736x/af/20/96/af20964a61f298775b737c19a996c787.jpg",
+  },
+  {
+    number: "04",
+    title: "Neon Cyber Cover",
+    type: "Cover Artwork",
+    description:
+      "Experimental key visual exploring scanline textures, halftones, and synthwave-inspired lighting.",
+    tags: ["Digital Art", "Illustration", "Photoshop"],
+    tone: "green",
+    poster: "https://i.pinimg.com/736x/bf/91/d6/bf91d6944f5d40586191c356971db430.jpg",
+  },
+   {
+    number: "04",
+    title: "Neon Cyber Cover",
+    type: "Cover Artwork",
+    description:
+      "Experimental key visual exploring scanline textures, halftones, and synthwave-inspired lighting.",
+    tags: ["Digital Art", "Illustration", "Photoshop"],
+    tone: "green",
+    poster: "https://i.pinimg.com/736x/a4/ed/33/a4ed3306f7011ad93e3336ac513b35e8.jpg",
+  },
+  {
+    number: "04",
+    title: "Neon Cyber Cover",
+    type: "Cover Artwork",
+    description:
+      "Experimental key visual exploring scanline textures, halftones, and synthwave-inspired lighting.",
+    tags: ["Digital Art", "Illustration", "Photoshop"],
+    tone: "green",
+    poster: "https://i.pinimg.com/736x/2f/2b/8d/2f2b8d6d39c53cab27e324b6d71d04dc.jpg",
+  },
+  {
+    number: "05",
     title: "Neon Cyber Cover",
     type: "Cover Artwork",
     description:
@@ -74,7 +144,27 @@ const artworks = [
     tags: ["Poster Design","Digital Art"],
     tone: "red",
     poster: "https://i.pinimg.com/736x/ac/ea/c0/aceac04fd05a15254f1bb434ea4d9091.jpg",
-  }
+  },
+  {
+    number: "08",
+    title: "Abstract Digital Art",
+    type: "Digital Illustration",
+    description:
+      "An abstract digital artwork exploring geometric shapes, gradients, and dynamic compositions.",
+    tags: ["Digital Illustration", "Abstract Art"],
+    tone: "purple",
+    poster: "https://i.pinimg.com/736x/e1/ea/8e/e1ea8e2c54bcf8155f5389ef8a1bd4d1.jpg",
+  },
+  {
+    number: "09",
+    title: "Futuristic Cityscape",
+    type: "Concept Art",
+    description:
+      "A concept art piece depicting a futuristic cityscape with neon lights, towering skyscrapers, and a cyberpunk aesthetic.",
+    tags: ["Concept Art", "Cityscape", "Digital Painting"],
+    tone: "cyan",
+    poster: "https://i.pinimg.com/736x/28/4f/5e/284f5ede3e2236c35309ffcf46a4b0e3.jpg",
+  },
 ];
 
 export default function Projects() {

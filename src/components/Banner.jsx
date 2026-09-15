@@ -6,21 +6,21 @@ import { segaSound } from "../utils/audio";
 const posterItems = [
   {
     id: 1,
-    title: "MLBB TopUp Concept",
+    title: "Yunjin Lesserafim",
     image:
-      "https://i.pinimg.com/736x/e8/fe/fb/e8fefb1d16429c442001a2eb313c0c36.jpg",
+      "https://i.pinimg.com/1200x/73/4d/e2/734de21bb7d3a14f03be9f9c6a0dadc8.jpg",
   },
   {
     id: 2,
-    title: "Kingdom Key Visual",
+    title: "WHO IS SPIDER-MAN?",
     image:
-      "https://i.pinimg.com/736x/56/7e/d6/567ed66daaa6963fed08585c7bfa6dd5.jpg",
+      "https://i.pinimg.com/736x/1e/3b/b9/1e3bb989651cfc56165d3ffa0f368044.jpg",
   },
   {
     id: 3,
-    title: "Brand Editorial Layout",
+    title: "STARBOY",
     image:
-      "https://i.pinimg.com/1200x/50/ee/86/50ee860b95cb4a88dd596002da7753d1.jpg",
+      "https://i.pinimg.com/736x/b9/bb/89/b9bb89ce6e14794c4bef15e94ab71e59.jpg",
   },
   {
     id: 4,
